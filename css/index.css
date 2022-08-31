@@ -1,5 +1,6 @@
 body{
     margin: 2vh 5vw;
+    background-color: #ffffff;
 }
 nav{
     display: flex;
@@ -31,7 +32,8 @@ nav{
     display: flex;
     top:10px;
     margin-top: 5%;
-    left: 55%;
+    left: 20%;
+    position: relative;
     
 }
 img[src="./images/headphones.jpg"]{
@@ -44,15 +46,15 @@ img[src="./images/circles.svg" ]{
     width: 50px;
 }
 .discount{
-   position: relative; 
-   left: 20%;
-   margin-top: 25%;
+   position: absolute; 
+   left: -5%;
+   margin-top: 45%;
   }
 
   .discount-content{
-    top:49vh;
+    top:50%;
     position:absolute;
-    margin-left: 10vw;
+    margin-left: 0vw;
     color: #ffffff;
     line-height: 10px;
   }
@@ -64,6 +66,7 @@ img[src="./images/circles.svg" ]{
     color: #c5c5c5;
     padding-left: 3%;
     margin-top: 10%;
+    width: 50vw;
  }
  h4,h3,h5{
     font-family: "poppins";
@@ -121,11 +124,12 @@ margin-top: 4%;
 }
 .right-section{
     padding-right: 5%;
+   
 }
 
 .right-section>button{
-    margin-left:45%;
-    margin-top: 4%;
+    margin-left:48%;
+    margin-top: 5%;
 }
 .left-section{
     margin-top: 3%;
@@ -152,8 +156,51 @@ margin-top: 4%;
 .dots{
     display: flex;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 50%;
 }
 .dot{
-    margin:0px 40px 0px 0px;
+    margin:10px 40px 0px 0px;
+}
+@media screen and (min-width: 1280px){
+    nav{
+        display: flex;
+        
+        margin-right: 15vw;
+        justify-content: space-around;
+    }
+    h1{
+        font-family: "fredoka one";
+        font-size: 55px;
+        padding-left: 3%;
+        margin-top: 3%;
+     }
+     .right-section{
+        padding-right: 15vw;
+       
+    }
+    p{
+        text-align: left;
+        position: relative;
+        font-family: "poppins";
+        font-size: 14px;
+        color: #c5c5c5;
+        padding-left: 3%;
+        margin-top: 10%;
+        width: 40vw;
+     }
+
+}
+@media screen and (max-width: 1280px) and (min-width:1024px){
+    h1{
+        font-family: "fredoka one";
+        font-size: 55px;
+        padding-left: 3%;
+        margin-top: 5%;
+     }
+     nav{
+        display: flex;
+        margin-left: 10%;
+        
+        justify-content: center;
+    }
 }
