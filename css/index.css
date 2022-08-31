@@ -1,5 +1,5 @@
 body{
-    margin: 10px 40px;
+    margin: 2vh 5vw;
 }
 nav{
     display: flex;
@@ -31,7 +31,7 @@ nav{
     display: flex;
     top:10px;
     margin-top: 5%;
-    left: 45%;
+    left: 55%;
     
 }
 img[src="./images/headphones.jpg"]{
@@ -50,16 +50,15 @@ img[src="./images/circles.svg" ]{
   }
 
   .discount-content{
-    bottom:42%;
+    top:49vh;
     position:absolute;
-    margin-left: 10%;
+    margin-left: 10vw;
     color: #ffffff;
     line-height: 10px;
   }
  p{
     text-align: left;
     position: relative;
-    padding-right: 5%;
     font-family: "poppins";
     font-size: 14px;
     color: #c5c5c5;
@@ -117,11 +116,11 @@ font-family: "poppins";
 color: #ffffff;
 border-color: #fe5e35;
 margin-left: 5%;
-margin-top: 5%;
+margin-top: 4%;
 
 }
 .right-section{
-    padding-right: 10%;
+    padding-right: 5%;
 }
 
 .right-section>button{
