@@ -5,7 +5,7 @@ body{
 nav{
     display: flex;
     margin-left: 5%;
-    margin-right: 40px;
+    margin-right: 5%;
     justify-content: center;
 }
 .nav-items{
@@ -164,8 +164,6 @@ margin-top: 4%;
 @media screen and (min-width: 1280px){
     nav{
         display: flex;
-        
-        margin-right: 15vw;
         justify-content: space-around;
     }
     h1{
@@ -193,14 +191,42 @@ margin-top: 4%;
 @media screen and (max-width: 1280px) and (min-width:1024px){
     h1{
         font-family: "fredoka one";
-        font-size: 55px;
+        font-size: 50px;
+        padding-left: 3%;
+        margin-top: 5%;
+     }
+     nav{
+        display: flex;      
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width:764px){
+    h1{
+        font-family: "fredoka one";
+        font-size: 45px;
         padding-left: 3%;
         margin-top: 5%;
      }
      nav{
         display: flex;
-        margin-left: 10%;
-        
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:764px){
+    h1{
+        font-family: "fredoka one";
+        font-size: 35px;
+        padding-left: 3%;
+        margin-top: 5%;
+     }
+     nav{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
         justify-content: center;
     }
 }
